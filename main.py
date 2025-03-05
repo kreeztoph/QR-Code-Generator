@@ -99,7 +99,7 @@ text_size = st.sidebar.slider("Text Size:", 10, 500, 100)
 font_name = st.sidebar.selectbox("Select Font:", ["arial.ttf", "times.ttf", "comic.ttf"])
 logo_size_ratio = st.sidebar.slider("Logo Size Ratio (as % of QR size):", 0.1, 0.5, 0.5)
 transparency = st.sidebar.slider("Logo Transparency (0-255):", 0, 255, 255)
-file_format = st.sidebar.radio("Save as:", ["PNG", "JPEG"])
+file_format = st.sidebar.radio("Save as:", ["JPEG","PNG"])
 
 with col1:
     data = st.text_input("Enter data for QR Code:")
